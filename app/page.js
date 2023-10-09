@@ -19,7 +19,7 @@ const btn = document.getElementById('btn1');
   return (
     <>
     {/* container 1 */}
-    <div className='container1 bg-black' id='container1'>
+    <div className='container1 bg-black text-center grid' id='container1'>
 
     <div className='navbar flex justify-around'>
       <Image  className=' logo' src={puerim} alt='error'/>
