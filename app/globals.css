@@ -10,7 +10,6 @@ html{
 .container1{
     width: 100%;
     height: 100vh;
-    position: relative;
 }
 
 .logo{
@@ -36,15 +35,15 @@ html{
     border-radius: 30px;
     font-size: 19px;
 }
-.main{
+/* .main{
     margin-top: 75px;
-    display: grid;
-}
+} */
 .main-text{
     color: white;
     font-weight: bolder;
     font-size: 100px;
     word-spacing: 3px;
+    margin-bottom: 90px;
     
 }
 .main-text span{
@@ -54,7 +53,6 @@ html{
     color: rgb(0, 0, 0);
 }
 .btn2 button{
-    margin-top: 90px;
     background-color: yellow;
     font-size: 27px;
     padding: 9px 30px;
