@@ -51,7 +51,7 @@ const btn = document.getElementById('btn1');
     </div>
 
     {/* container 2 */}
-    <div className="container2 bg-yellow-400" id='container2'>
+    <div className="container2" id='container2'>
 
     </div>
     </>
