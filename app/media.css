@@ -16,10 +16,10 @@
         padding: 10px 25px;
         border-radius: 50px;
         font-size: 30px;
+        margin-left: 221px;
+    margin-top: -3px;
     }
-    .btn1 {
-        margin: 46px 0;
-    }
+    
     
     .main-text{
         
@@ -72,6 +72,10 @@
         margin-bottom: 75px;
         
     }
+    .btn1 button {
+        margin-left: 0px;
+    margin-top:-10px;
+    }
     
     /* contact page */
     .logo1{
@@ -103,15 +107,17 @@
         margin: 0px 14px;
         font-size: 17px;
     }
-    .btn1{
-        margin: 36px 0;
-        margin-left:-13px ;    
-    }
+    
     .btn1 button{
 
         padding: 10px 16px;
         border-radius: 30px;
         font-size: 15px;
+        
+            margin-left: 0px;
+        margin-top:-10px;
+        
+        
     }
     .btn2 button{
         
@@ -167,13 +173,21 @@
         color: black;
     }
     .btn1{
-        display: none;  
+        /* display: none;    */
+        text-align: center;
     }
     
     .btn1 button{
+        border: 2px solid black;
+        color: black;
         padding: 10px 16px;
         border-radius: 30px;
         font-size: 15px;
+        
+            margin-left: 0px;
+        
+        
+
     }
     .btn2 button{
         font-size: 23px;

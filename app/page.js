@@ -40,6 +40,7 @@ const btn = document.getElementById('btn1');
         <a href=""onClick={()=>{
         ham();
       }}>Customer's opinions</a>
+      <Link href="/Contact" className='text-white btn1' id='btn1'><button>Contact Us</button></Link>
       </div>
       <div onClick={()=>{
         ham();
@@ -49,7 +50,6 @@ const btn = document.getElementById('btn1');
                 <span class="red bar"></span>
       </div>
       
-      <Link href="/Contact" className='text-white btn1' id='btn1'><button>Contact Us</button></Link>
     </div>
 
     <div className='main text-center'>

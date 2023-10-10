@@ -28,10 +28,7 @@ html{
 .nav-list a:hover{
     color: yellow;
 }
-.btn1{
-    margin: 36px 0;
-    margin-left:-82px ;    
-}
+
 .btn1 button{
     color: yellow;
     border: 2px solid yellow;
@@ -40,6 +37,8 @@ html{
     border-radius: 30px;
     font-size: 19px;
     transition: all 0.3s;
+    margin-left: 144px;
+    margin-top: -7px;
 
 }
 .btn1 button:hover{
@@ -79,9 +78,6 @@ html{
     transition: all 0.3s ease-in-out;
     background-color: yellow;
 }
-
-
-
 /* container 2 */
 .container2{
     width: 100%;
