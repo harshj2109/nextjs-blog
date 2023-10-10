@@ -11,6 +11,7 @@ function ham(){
 const hamburger = document.getElementById('hamburger');
 const btn = document.getElementById('btn1');
 
+
     navbar.classList.toggle("active");
     hamburger.classList.toggle("active");
     btn1.classList.toggle("active");
@@ -27,10 +28,18 @@ const btn = document.getElementById('btn1');
 
       
       <div className="nav-list flex text-white" id='nav-list'>
-        <a href="">Our Services</a>
-        <a href="">How it works</a>
-        <a href="">Our projects</a>
-        <a href="">Customer's opinions</a>
+        <a href="" onClick={()=>{
+        ham();
+      }}>Our Services</a>
+        <a href="" onClick={()=>{
+        ham();
+      }}>How it works</a>
+        <a href=""onClick={()=>{
+        ham();
+      }}>Our projects</a>
+        <a href=""onClick={()=>{
+        ham();
+      }}>Customer's opinions</a>
       </div>
       <div onClick={()=>{
         ham();

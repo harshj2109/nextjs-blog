@@ -7,7 +7,15 @@ import Link from 'next/link'
 const contact = () => {
   return (
     <>
-    <h1 data className="head">hello</h1>
+    <div className="container3 bg-black">
+    <div className="navbar2 flex justify-between">
+
+    <Image  className=' logo1' src={logo} alt='error'/>
+    <Link href=".." className='btn3'><button>Home</button></Link>
+    </div>
+
+      
+    </div>
     </>
   )
 }
