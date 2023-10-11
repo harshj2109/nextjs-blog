@@ -13,7 +13,7 @@
         font-size: 31px;
     }
     .btn1 button {
-        padding: 10px 25px;
+        padding: 10px 37px;
         border-radius: 50px;
         font-size: 35px;
         margin-left: 250px;
@@ -50,6 +50,31 @@
     .btn3 {
         margin: 46px 100px;
     }
+    /* container 2 */
+    .carousel{
+        
+        gap: 30px;
+        
+    
+    }
+    
+    .cards{
+        
+        
+        height: 584px;
+        width: 1600px;
+        border-radius: 50px;
+
+    }
+    .text1{
+        font-size: 116px;
+        
+    }
+    .text2{
+        font-size: 30px;
+        
+    
+    }
 
 }
 @media only screen and (max-width:1440px) and (min-width:1024px){
@@ -60,6 +85,40 @@
         font-size: 96px;
         margin-bottom: 75px;
         
+    }
+    .btn1 button {
+        padding: 10px 28px;
+    border-radius: 30px;
+    font-size: 19px;
+    transition: all 0.3s;
+    margin-left: 89px;
+    margin-top: -11px;
+    }
+
+    /* container 2 */
+    .carousel{
+        
+        gap: 20px;
+        
+    
+    }
+    
+    .cards{
+        
+        
+        height:330px;
+        width: 920px;
+        border-radius: 50px;
+
+    }
+    .text1{
+        font-size: 75px;
+        
+    }
+    .text2{
+        font-size: 20px;
+        
+    
     }
 
 }
@@ -73,9 +132,11 @@
         
     }
     .btn1 button {
-        margin-left: 0px;
-    margin-top:-10px;
-    }
+        margin-left: 0;
+    margin-top: -11px;
+    margin-right: -39px;
+}
+    
     
     /* contact page */
     .logo1{
@@ -90,6 +151,31 @@
     }
     .btn3 {
         margin: 46px 70px;
+    }
+    /* container 2 */
+    .carousel{
+        
+        gap: 20px;
+        
+    
+    }
+    
+    .cards{
+        
+        
+        height:330px;
+        width: 920px;
+        border-radius: 50px;
+
+    }
+    .text1{
+        font-size: 75px;
+        
+    }
+    .text2{
+        font-size: 20px;
+        
+    
     }
 }
 @media only screen and (max-width:768px) and (min-width:427px){
@@ -116,6 +202,8 @@
         
             margin-left: 0px;
         margin-top:-10px;
+    margin-right: -20px;
+
         
         
     }
@@ -137,6 +225,31 @@
     }
     .btn3 {
         margin: 46px 70px;
+    }
+    /* container 2 */
+    .carousel{
+        
+        gap: 20px;
+        
+    
+    }
+    
+    .cards{
+        
+        text-align: center;
+        height: 320px;
+    width: 700px;
+    border-radius: 35px;
+
+    }
+    .text1{
+        font-size: 65px;
+        
+    }
+    .text2{
+        font-size: 18px;
+        
+    
     }
 }
 @media  only screen and (max-width:426px){
@@ -178,13 +291,14 @@
     }
     
     .btn1 button{
-        border: 2px solid black;
+        border: 3px solid black;
         color: black;
         padding: 10px 16px;
         border-radius: 30px;
-        font-size: 15px;
+        font-size: 18px;
         
             margin-left: 0px;
+            margin-top: 30px;
         
         
 
@@ -227,5 +341,31 @@
     }
     .btn3 {
         margin: 40px 40px;
+    }
+
+    /* container 2 */
+    .carousel{
+        
+        gap: 20px;
+        
+    
+    }
+    
+    .cards{
+        
+        text-align: center;
+        height: 450px;
+    width: 370px;
+    border-radius: 35px;
+
+    }
+    .text1{
+        font-size: 40px;
+        
+    }
+    .text2{
+        font-size: 18px;
+        
+    
     }
 }

@@ -17,6 +17,10 @@ const btn = document.getElementById('btn1');
     btn1.classList.toggle("active");
 
 }
+
+
+
+
   return (
     <>
     {/* container 1 */}
@@ -60,9 +64,28 @@ const btn = document.getElementById('btn1');
     </div>
 
     {/* container 2 */}
-    <div className="container2" id='container2'>
+    <div className="container2 " id='container2'>
 
+      <div className="carousel">
+        <div className="cards text">
+          <div className='text1'>Our ability to adapt</div>
+          <div className='text2'>We adapt to your needs and constraints.We are flexible and responsive.</div>
+        </div>
+        <div className="cards">
+        <div className='text1'>Tailor-made support</div>
+          <div className='text2'>We support you in carrying out your peojects.We advise and guide you.</div>
+        </div>
+        <div className="cards">
+        <div className='text1'>Our strenght of proposal</div>
+          <div className='text2'>We offer you innovative and creative solution.We bring you are expertise</div>
+        </div>
+
+        
+      </div>
+
+      
     </div>
+      <div className="container5"></div>
     </>
   )
 }
