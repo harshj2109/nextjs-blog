@@ -85,7 +85,45 @@ const btn = document.getElementById('btn1');
 
       
     </div>
-      <div className="container5"></div>
+      <div className="container4">
+      <div className="carousel2">
+        <div className="cards2" id="box-1">
+          <div className="text-head">Services</div>
+          <div className="text-body">A complete tech product team</div>
+          <div className="text-foot">We are a team of developers, designers and project managers. <br /> The goal is to access in excel in each area  and create high-quality digital products. </div>
+
+        </div>
+        <div className="cards2">
+        <div className="head-box">Design______001</div>
+          <div className="body-box">We take into account user interaction with the interface. We pay particular attention to hypothesis testing and prototyping, only the most successful solutions are retained for visualization.</div>
+          <div className="flex">
+
+          <div className="foot-box" >Figma</div>
+          <div className="foot-box" >Adobe illustrator</div>
+          <div className="foot-box" >Adobe Photoshop </div>
+
+
+          </div>
+
+        </div>
+        <div className="cards2">
+        <div className="head-box">Frontend_____002</div>
+          <div className="body-box">We develop web and mobile applications. We use the latest technologies and best practices to create digital products that are scalable and maintainable overtime.</div>
+          <div className="flex">
+
+          <div className="foot-box" >Html</div>
+          <div className="foot-box" >Css</div>
+          <div className="foot-box" >Javascript</div>
+          <div className="foot-box" >React Js</div>
+          
+
+
+          </div>
+        </div>
+
+        
+      </div>
+      </div>
     </>
   )
 }

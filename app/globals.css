@@ -129,11 +129,87 @@ html{
 
 }
 
-/* container4 */
-.container5{
+/* container4  basically 3*/
+.container4{
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: yellow;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.carousel2{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 20px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-left: 10px;
+
+}
+.carousel2::-webkit-scrollbar{
+    display: none;
 }
 
 
+.cards2{
+    
+    scroll-snap-align: start;
+    background-color:rgb(0, 0, 0);
+    height: 650px;
+    width: 1000px;
+    border-radius: 30px;
+    color: white;
+    
+}
+#box-1{
+    background-color: yellow;
+    color: black;
+}
+.text-head{
+    margin: 50px 0;
+    margin-left: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    display:inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.text-body{
+    margin: 10px 0;
+    font-size: 73px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.text-foot{
+    margin: 10px 0;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+.head-box{
+    margin: 50px 0;
+    font-size: 73px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.body-box{
+    margin: 10px 0;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.foot-box{
+    margin: 50px 0;
+    margin-left: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    display:inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+}
