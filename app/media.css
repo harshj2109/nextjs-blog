@@ -406,7 +406,7 @@
     }
     
 }
-@media  only screen and (max-width:426px) and (min-width:376px){
+@media  only screen and (max-width:426px){
     .logo{
         margin: 35px 30px;
     }
@@ -570,97 +570,14 @@
         border-radius: 20px;
         font-size: 15px;
     }
+    #box-1{
+        border: 2px dashed black;
+    }
 }
 
-@media  only screen and (max-width:375.5px) and (min-width:321px){
-    .logo{
-        margin: 35px 30px;
-    }
-    .main-text{
-        font-size: 60px;
-    }
-    .navbar{
-        justify-content: space-between;
-    }
-    .nav-list{
-        display: none;
-    }
-
-    .nav-list.active{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: yellow;
-        height: 100vh;
-        margin: 0px;
-        width: 100%;
-        position: absolute;
-        padding: 50px 0;
-    } 
+@media  only screen and (max-width:375.2px) {
+     
     
-    .nav-list a{
-        margin-top: 55px;
-        
-        font-size: 22px;
-        color: black;
-    }
-    .btn1{
-        /* display: none;    */
-        text-align: center;
-    }
-    
-    .btn1 button{
-        border: 3px solid black;
-        color: black;
-        padding: 10px 16px;
-        border-radius: 30px;
-        font-size: 18px;
-        
-            margin-left: 0px;
-            margin-top: 30px;
-        
-        
-
-    }
-    .btn2 button{
-        font-size: 23px;
-        padding: 9px 30px;
-    }
-
-    .hamburger{
-        display: block;
-        padding: 45px 33px;
-    }
-    .hamburger.active .bar{
-        background-color: rgb(0, 0, 0);
-        /* z-index: 1000; */
-        
-    }
-    .hamburger.active span:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-        
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    /* contact page */
-    .logo1{
-        margin: 35px 40px;
-        width: 50px;
-        height: 50px;
-    }
-    .btn3 button {
-        padding: 10px 25px;
-        border-radius: 50px;
-        font-size: 17px;
-    }
-    .btn3 {
-        margin: 40px 40px;
-    }
 
     /* container 2 */
     .carousel{
@@ -732,6 +649,9 @@
         padding: 5px 8px;
         border-radius: 20px;
         font-size: 15px;
+    }
+    #box-1{
+        border: 2px dashed black;
     }
 }
 
@@ -852,12 +772,14 @@
         
         
         height: 551px;
-        width: 280px;
+        width: 282px;
         border-radius: 30px;
         
         
     }
-
+    #box-1{
+        border: 2px dashed black;
+    }
     .text-head{
         margin: 30px 0;
     font-size: 18px;
