@@ -109,7 +109,7 @@ const btn = document.getElementById('btn1');
         <div className="cards2">
         <div className="head-box">Frontend_____002</div>
           <div className="body-box">We develop web and mobile applications. We use the latest technologies and best practices to create digital products that are scalable and maintainable overtime.</div>
-          <div className="flex">
+          <div className="flex ">
 
           <div className="foot-box" >Html</div>
           <div className="foot-box" >Css</div>
