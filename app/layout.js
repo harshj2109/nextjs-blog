@@ -17,8 +17,8 @@ const lato = Lato({
 export default function RootLayout({ children }) {
   useEffect(()=>{
     AOS.init({
-      offset: 300,
-      delay:1000
+      offset: 120,
+      delay:100
     });
     },[])
   

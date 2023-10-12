@@ -17,16 +17,12 @@ const btn = document.getElementById('btn1');
     btn1.classList.toggle("active");
 
 }
-
-
-
-
   return (
     <>
     {/* container 1 */}
-    <div className='container1 bg-black text-center grid' id='container1' data-aos='fade-in'>
+    <div className='container1 bg-black text-center grid' id='container1' >
 
-    <div className='navbar flex justify-around'>
+    <div className='navbar flex justify-around' data-aos='fade-in'>
       <Image  className=' logo' src={puerim} alt='error'/>
 
 
@@ -56,8 +52,8 @@ const btn = document.getElementById('btn1');
       
     </div>
 
-    <div className='main text-center'>
-    <div className="main-text ">We <span>Help</span> <br/> You Stand Out</div>
+    <div className='main text-center' data-aos='zoom-in'>
+    <div className="main-text " >We <span>Help</span> <br/> You Stand Out</div>
     
     <a className='btn2'href="#container2"><button>Discover Us</button></a>
     </div>
@@ -67,15 +63,15 @@ const btn = document.getElementById('btn1');
     <div className="container2 " id='container2'>
 
       <div className="carousel">
-        <div className="cards text">
+        <div className="cards text" data-aos='fade-in'>
           <div className='text1'>Our ability to adapt</div>
           <div className='text2'>We adapt to your needs and constraints. We are flexible and responsive.</div>
         </div>
-        <div className="cards">
+        <div className="cards" data-aos='fade-in'>
         <div className='text1'>Tailor-made support</div>
           <div className='text2'>We support you in carrying out your peojects. We advise and guide you.</div>
         </div>
-        <div className="cards">
+        <div className="cards" data-aos='fade-in'>
         <div className='text1'>Our strenght of proposal</div>
           <div className='text2'>We offer you innovative and creative solution. We bring you are expertise</div>
         </div>
@@ -87,13 +83,13 @@ const btn = document.getElementById('btn1');
     </div>
       <div className="container4">
       <div className="carousel2">
-        <div className="cards2" id="box-1">
+        <div className="cards2" id="box-1" data-aos='fade-up'>
           <div className="text-head">Services</div>
           <div className="text-body">A complete tech product team</div>
           <div className="text-foot">We are a team of developers, designers and project managers. <br /> The goal is to access in excel in each area  and create high-quality digital products. </div>
 
         </div>
-        <div className="cards2">
+        <div className="cards2" data-aos='fade-up'>
         <div className="head-box">Design______001</div>
           <div className="body-box">We take into account user interaction with the interface. We pay particular attention to hypothesis testing and prototyping, only the most successful solutions are retained for visualization.</div>
           <div className="flex">
@@ -106,7 +102,7 @@ const btn = document.getElementById('btn1');
           </div>
 
         </div>
-        <div className="cards2">
+        <div className="cards2" data-aos='fade-up'>
         <div className="head-box">Frontend_____002</div>
           <div className="body-box">We develop web and mobile applications. We use the latest technologies and best practices to create digital products that are scalable and maintainable overtime.</div>
           <div className="flex ">
