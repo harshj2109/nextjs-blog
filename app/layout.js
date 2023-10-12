@@ -5,9 +5,9 @@ import './contact.css'
 import './media.css'
 
 import { Lato } from 'next/font/google'
-// import { useEffect } from 'react'
-// import AOS from 'aos'
-// import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const lato = Lato({ 
   subsets: ['latin'],weight:'400'
@@ -15,12 +15,12 @@ const lato = Lato({
 
 
 export default function RootLayout({ children }) {
-  // useEffect(()=>{
-  //   AOS.init({
-  //     offset: 300,
-  //     delay:1000
-  //   });
-  //   },[])
+  useEffect(()=>{
+    AOS.init({
+      offset: 300,
+      delay:1000
+    });
+    },[])
   
   return (
     
