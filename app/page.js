@@ -28,7 +28,7 @@ const btn = document.getElementById('btn1');
 
       
       <div className="nav-list flex text-white" id='nav-list'>
-        <a href="" onClick={()=>{
+        <a href="#container4" onClick={()=>{
         ham();
       }}>Our Services</a>
         <a href="" onClick={()=>{
@@ -81,7 +81,7 @@ const btn = document.getElementById('btn1');
 
       
     </div>
-      <div className="container4">
+      <div className="container4" id='container4'>
       <div className="carousel2">
         <div className="cards2" id="box-1" data-aos='fade-up'>
           <div className="text-head">Services</div>
@@ -111,14 +111,20 @@ const btn = document.getElementById('btn1');
           <div className="foot-box" >Css</div>
           <div className="foot-box" >Javascript</div>
           <div className="foot-box" >React Js</div>
-          
-
-
           </div>
         </div>
 
         
       </div>
+      </div>
+      <div className="container5">
+        <div className="team-box" data-aos='slide-up'>
+          <div className="team-txt">We are a creative <span>✨</span> and passionate <span>🧠</span> team based in bangalore <span>🏡</span>.</div>
+          <button><a href="#">Discover our team</a></button>
+        </div>
+
+
+
       </div>
     </>
   )

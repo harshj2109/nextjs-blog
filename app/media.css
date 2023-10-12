@@ -130,7 +130,34 @@
         border-radius: 50px;
         font-size: 25px;
     }
+
+    /* container 5 */
     
+    .team-box{
+        height: 900px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 169px;
+        font-weight: 500;
+        line-height: 200px;
+    }
+    .team-txt span{
+        font-size: 130px;
+    }
+    .team-box button{
+        margin-top: 83px;
+        font-size: 47px;
+        padding: 19px 30px;
+        border-radius: 84px;
+        
+    }
+    .team-box button:hover{
+        
+        
+        font-size: 50px;
+    
+    }
 
 }
 @media only screen and (max-width:1440px) and (min-width:1024px){
@@ -225,6 +252,32 @@
         font-size: 18px;
     }
 
+    /* container 5 */
+    .team-box{
+        height: 515px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 97px;
+        font-weight: 500;
+        line-height: 96px;
+    }
+    .team-txt span{
+        font-size: 72px;
+    }
+    .team-box button{
+        margin-top: 41px;
+    font-size: 28px;
+    padding: 15px 19px;
+    border-radius: 84px;
+        
+    }
+    .team-box button:hover{
+        
+        
+        font-size: 34px;
+    
+    }
 }
 @media only screen and (max-width:1024px) and (min-width:769px){
 
@@ -289,6 +342,32 @@
         border-radius: 30px;
         
         
+    }
+    /* container 5 */
+    .team-box{
+        height: 515px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 85px;
+        font-weight: 500;
+        line-height: 96px;
+    }
+    .team-txt span{
+        font-size: 70px;
+    }
+    .team-box button{
+        margin-top: 41px;
+    font-size: 28px;
+    padding: 15px 19px;
+    border-radius: 84px;
+        
+    }
+    .team-box button:hover{
+        
+        
+        font-size: 34px;
+    
     }
 }
 @media only screen and (max-width:768px) and (min-width:427px){
@@ -410,11 +489,39 @@
 .carousel2::-webkit-scrollbar{
     display: none;
 }
+    /* container 5 */
+    .team-box{
+        height: 470px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 67px;
+        font-weight: 500;
+        line-height: 96px;
+    }
+    .team-txt span{
+        font-size: 59px;
+    }
+    .team-box button{
+        margin-top: 41px;
+        font-size: 26px;
+        padding: 10px 18px;
+        border-radius: 84px;
+        
+    }
+    .team-box button:hover{
+        
+        
+        font-size: 30px;
     
+    }
 }
 @media  only screen and (max-width:426px){
     .logo{
         margin: 35px 30px;
+    }
+    .main{
+        z-index: 0;
     }
     .main-text{
         font-size: 60px;
@@ -437,6 +544,7 @@
         width: 100%;
         position: absolute;
         padding: 50px 0;
+        z-index: 1;
     } 
     
     .nav-list a{
@@ -471,10 +579,14 @@
     .hamburger{
         display: block;
         padding: 45px 33px;
+        z-index: 1;
+
     }
     .hamburger.active .bar{
         background-color: rgb(0, 0, 0);
         /* z-index: 1000; */
+        /* z-index: 100; */
+
         
     }
     .hamburger.active span:nth-child(2){
@@ -582,6 +694,31 @@
     .carousel2::-webkit-scrollbar{
         display: none;
     }
+
+    /* container 5 */
+    .team-box{
+        height: 455px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 69px;
+    }
+    .team-txt span{
+        font-size: 41px;
+    }
+    .team-box button{
+        margin-top: 38px;
+    font-size: 22px;
+    padding: 10px 18px;
+    border-radius: 84px;
+}
+        
+    
+    .team-box button:hover{    
+        font-size: 26px;
+    }
 }
 
 @media  only screen and (max-width:375.2px) {
@@ -663,6 +800,30 @@
         padding: 5px 8px;
         border-radius: 20px;
         font-size: 15px;
+    }
+    /* container 5 */
+    .team-box{
+        height: 500px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 69px;
+    }
+    .team-txt span{
+        font-size: 40px;
+    }
+    .team-box button{
+        margin-top: 38px;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 84px;
+}
+        
+    
+    .team-box button:hover{    
+        font-size: 21px;
     }
 }
 
@@ -832,5 +993,29 @@
         border-radius:10px;
         font-size: 13px;
         /* text-align: center; */
+    }
+    /* container 5 */
+    .team-box{
+        height: 500px;
+        padding-top: 20px;
+    }
+    .team-txt{
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 69px;
+    }
+    .team-txt span{
+        font-size: 35px;
+    }
+    .team-box button{
+        margin-top: 38px;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 84px;
+}
+        
+    
+    .team-box button:hover{    
+        font-size: 21px;
     }
 }

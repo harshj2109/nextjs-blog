@@ -11,6 +11,7 @@ html{
     width: 100%;
     height: 100vh;
     /* place-items: center; */
+    overflow: hidden;
 }
 
 .logo{
@@ -91,6 +92,8 @@ html{
     align-items: center;
     justify-content: center;
     background-color: yellow;
+    overflow: hidden;
+
 }
 .carousel{
     display: grid;
@@ -137,6 +140,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
 }
 .carousel2{
@@ -209,4 +213,46 @@ html{
     padding: 10px 30px;
     border-radius: 50px;
     font-size: 18px;
+}
+
+
+/* container 5 */
+.container5{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.team-box{
+    width: 98%;
+    margin: 0 auto;
+    height: 600px;
+    background-color: yellow;
+    border-radius: 20PX;
+    color: rgb(183, 179, 179);
+    text-align: center;
+}
+.team-txt{
+    font-size: 103px;
+    font-weight: 500;
+    line-height: 132px;
+}
+.team-txt span{
+    font-size: 80px;
+}
+.team-box button{
+    margin-top: 40px;
+    border: 3px solid rgb(183, 179, 179);
+    font-size: 27px;
+    padding: 15px 20px;
+    border-radius: 84px;
+    transition: 0.2s all ease-in-out; 
+    /* color: black; */
+}
+.team-box button:hover{
+    
+    
+    font-size: 30px;
+
 }
