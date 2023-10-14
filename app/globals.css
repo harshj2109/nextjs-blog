@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /* container 1 */
 html{
     scroll-behavior: smooth;
@@ -229,30 +231,136 @@ html{
     margin: 0 auto;
     height: 600px;
     background-color: yellow;
-    border-radius: 20PX;
-    color: rgb(164, 104, 104);
+    border-radius: 90px;
+    color: rgb(226, 90, 90);
     text-align: center;
+
 }
 .team-txt{
+    padding: 40px;
     font-size: 103px;
     font-weight: 500;
-    line-height: 132px;
+    line-height: 110px;
 }
 .team-txt span{
     font-size: 80px;
 }
 .team-box button{
     margin-top: 40px;
-    border: 3px solid rgb(164, 104, 104);
+    /* border: 3px solid rgb(0, 0, 0); */
     font-size: 27px;
     padding: 15px 20px;
-    border-radius: 84px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 2px 2px 2px black;
     transition: 0.2s all ease-in-out; 
-    /* color: black; */
+    color: black;
+    background-color: rgb(226,90,90);
 }
 .team-box button:hover{
     
+    box-shadow: 0px 0px 0px 0px;
     
-    font-size: 30px;
 
+}
+
+.work-box{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 30px;
+    overflow: hidden;       
+}
+
+.work-text{
+    width: 85%;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    font-weight: 700;
+    padding: 15px 0;
+    line-height: 100px;
+
+    
+}
+.how-box{
+    /* background-color: red; */
+    width: 100%;
+    /* height: 50%; */
+    /* margin: 20px 0; */
+    padding: 50px 0;
+    
+    /* border-radius:90px; */
+
+}
+
+#howbox1{
+    background-color: #E2C7D6;
+}
+.light{
+    width: 80px;
+    height: 80px;
+}
+#howbox2{
+    background-color: #FFAD58;
+}
+#howbox3{
+    background-color: #3D048C;
+}
+#howbox4{
+    background-color: #527DAE;
+    color: white;
+}
+#howbox5{
+    background-color: #F46C4E;
+}
+
+
+.how-img{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+
+}
+
+.how-text{
+    font-size: 35px;
+    margin: auto ;
+    margin-left: 20px;
+}
+
+
+.p1{
+    font-size: 90px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+.p1::after{
+    content: '';
+    display: block;
+    background-color: black;
+    width: auto;
+    height: 5px;
+}
+.txtw::after{
+    content: '';
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 5px;
+}
+.marq{
+    padding: 70px  0 0 0;
+}
+.red{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+.flexdiv {
+    display: flex;
 }

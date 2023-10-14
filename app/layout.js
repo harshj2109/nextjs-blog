@@ -4,14 +4,20 @@ import './globals.css'
 import './contact.css'
 import './media.css'
 
-import { Lato } from 'next/font/google'
+import { Anton, Lato } from 'next/font/google'
+
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
 const lato = Lato({ 
   subsets: ['latin'],weight:'400'
 })
+
+// const Anton = Anton({ 
+//   subsets: ['latin'],weight:'400'
+// })
 
 
 export default function RootLayout({ children }) {
