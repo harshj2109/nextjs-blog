@@ -221,7 +221,7 @@ html{
 /* container 5 */
 .container5{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: rgb(255, 255, 255);
     padding-top: 20px;
     box-sizing: border-box;
@@ -232,7 +232,7 @@ html{
     height: 600px;
     background-color: yellow;
     border-radius: 90px;
-    color: rgb(226, 90, 90);
+    color: rgb(182, 54, 54);
     text-align: center;
 
 }
@@ -256,8 +256,10 @@ html{
     box-shadow: 2px 2px 2px 2px black;
     transition: 0.2s all ease-in-out; 
     color: black;
-    background-color: rgb(226,90,90);
+    background-color: rgb(182, 54, 54);
+    /* display: flex; */
 }
+
 .team-box button:hover{
     
     box-shadow: 0px 0px 0px 0px;
@@ -285,13 +287,11 @@ html{
     
 }
 .how-box{
-    /* background-color: red; */
-    width: 100%;
-    /* height: 50%; */
-    /* margin: 20px 0; */
-    padding: 50px 0;
     
-    /* border-radius:90px; */
+    width: 100%;
+    
+    padding: 50px 0;
+        
 
 }
 
@@ -301,6 +301,10 @@ html{
 .light{
     width: 80px;
     height: 80px;
+}
+.light-white{
+    filter: invert(1);
+
 }
 #howbox2{
     background-color: #FFAD58;
@@ -342,25 +346,106 @@ html{
     display: block;
     background-color: black;
     width: auto;
-    height: 5px;
+    height: 3px;
 }
 .txtw::after{
     content: '';
     display: block;
     background-color: rgb(255, 255, 255);
     width: auto;
-    height: 5px;
+    height: 3px;
 }
+/* .marquee1{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+} */
 .marq{
     padding: 70px  0 0 0;
 }
 .red{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 500px;
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
     margin: 0px 10px;
 }
 .flexdiv {
     display: flex;
+}
+.person{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+.p-head{
+    font-size: 25px;
+    font-weight: 500;
+}
+.p-body{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.container6{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.footer-page{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    position: relative;
+}
+/* .foot-logo-body{
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: yellow;
+} */
+.foot-logo{
+    width: 60px;
+    height:60px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.tagline{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.foot-nav{
+    width: 30%;
+    position: absolute;
+    left: 150px;
+    top:270px;
+
+}
+.tags{
+    font-size: 17px;
+}
+.links-nav{
+    position: absolute;
+    right: 100px;
+    top: 130px;
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    
+}
+.link-tags{
+    text-align: center;
+margin: 10px 30px;
+
 }

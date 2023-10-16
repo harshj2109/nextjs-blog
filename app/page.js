@@ -8,6 +8,14 @@ import img3 from '../public/images/design.jpg'
 import img4 from '../public/images/development.jpg'
 import img5 from '../public/images/iteration.jpg'
 import light from '../public/images/light.svg'
+import brain from '../public/images/brain.svg'
+import design from '../public/images/design.svg'
+import develop from '../public/images/develop.svg'
+import iteration from '../public/images/iteration.svg'
+
+import p1 from '../public/images/p1.png'
+import p2 from '../public/images/p2.png'
+
 
 import Link from 'next/link'
 
@@ -68,26 +76,33 @@ const btn = document.getElementById('btn1');
     <a className='btn2'href="#container2"><button>Discover Us</button></a>
     </div>
     </div>
-    {/* <marquee class="marq flex" bgcolor = "yellow" direction = "right" loop="" Scrollamount='20' >
-            <div className='flex'>
-            <div className="red">
+      
+      {/* <marquee class="marq flex" bgcolor = "yellow" direction = "right" loop="" Scrollamount='20' behavior="alternate" >
+            <div className='flex text-center text-white'>
+            <div className="red ">
+            <Image className='person' src={p1}/>
+            <div className="p-head">Person 1</div>
+            
+            </div>
 
-            </div>
-            <div className="red">
 
-            </div>
             <div className="red">
+            <Image className='person' src={p2}/>
+            <div className="p-head">Person 2</div>
+            <div className="p-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, ipsa recusandae temporibus iusto magn</div>
             </div>
-            <div className="red">
-            </div>
-            <div className="red">
-            </div>
-                      
-
             </div>
     </marquee> */}
+      
+    
+    
+    
+
+    
     {/* container 2 */}
     <div className="container2 " id='container2'>
+
+   
 
       <div className="carousel">
         <div className="cards text" data-aos='fade-in'>
@@ -147,18 +162,18 @@ const btn = document.getElementById('btn1');
       <div className="container5">
         <div className="team-box" data-aos='fade-up'>
           <div className="team-txt">We are a creative <span>🎨</span> and passionate <span></span> team based in Bangalore <span>🏡</span>.</div>
-          <button><Link href="#">Discover our team</Link></button>
+          <Link href="#"><button>Discover our team</button></Link>
         </div>
 
         <div id='workbox' className="work-box">
           <div className="work-text-box">
 
-          <div className="work-text" data-aos="">
+          <div className="work-text" data-aos="slide-up">
           We offer you ideal support from idea to realization.
           </div>
           </div>
 
-          <div id='howbox1' className="how-box" data-aos=''>
+          <div id='howbox1' className="how-box" data-aos='slide-left'>
             <div className="flexdiv">
               <Image className='how-img ml-5' src={img1} alt='error'/>
               <div className="how-text">
@@ -169,13 +184,13 @@ const btn = document.getElementById('btn1');
               </div>
             </div>
           </div>
-          <div id='howbox2' className="how-box" data-aos=''>
+          <div id='howbox2' className="how-box" data-aos='slide-right'>
           
           <div className="flexdiv">
           
               <Image className='how-img ml-5' src={img2} alt='error'/>
               <div className="how-text">
-          <Image className='light' src={light}/>
+          <Image className='light' src={brain}/>
 
                 <p className='p1'>Brainstorming</p>
                 <p>We develop a strategy that defines the design approach, user experience and key features of the projecs.</p>
@@ -183,11 +198,11 @@ const btn = document.getElementById('btn1');
             </div>
             
           </div>
-          <div id='howbox3' className="how-box"data-aos=''>
+          <div id='howbox3' className="how-box"data-aos='slide-left'>
           <div className="flexdiv">
               <Image className='how-img ml-5' src={img3} alt='error'/>
               <div className="how-text text-white">
-              <Image className='light' src={light}/>
+              <Image className='light light-white' src={design}/>
 
                 <p className='p1 txtw'>Design</p>
                 <p>We work closely with our clients to obtain feedback and improve the design until it meets their needs and vision.</p>
@@ -195,37 +210,62 @@ const btn = document.getElementById('btn1');
             </div>
           </div>
           
-          <div id='howbox4' className="how-box" data-aos=''>
+          <div id='howbox4' className="how-box" data-aos='slide-right'>
           <div className="flexdiv">
           
               <Image className='how-img ml-5' src={img4} alt='error'/>
               <div className="how-text text-white">
-          <Image className='light' src={light}/>
+          <Image className='light light-white' src={develop}/>
 
                 <p className='p1 txtw'>Development</p>
                 <p>Once the design has ben validated,we frame the task in order to set up a development roadmap.</p>
               </div>
             </div>
           </div>
-          <div id='howbox5' className="how-box" data-aos=''>
+          <div id='howbox5' className="how-box" data-aos='slide-left'>
           <div className="flexdiv">
               <Image className='how-img ml-5' src={img5} alt='error'/>
               <div className="how-text" >
-              <Image className='light' src={light}/>
+              <Image className='light' src={iteration}/>
 
                 <p className='p1'>Iteration</p>
-                <p>We text the product with end users and you, then make necessary changes to improve the user.</p>
+                <p>We test the product with end users and you, then make necessary changes to improve the user.</p>
               </div>
             </div>
           </div>
-          
+        </div>
+      </div>
+      <div className="container6">
+      <div className="team-box" data-aos='fade-up'>
+          <div className="team-txt">The expertise of a team <span>👬</span> combined with the proximity <span></span> of a freelancer<span>💻</span>.</div>
+          <Link href="/Contact"><button>Contact Us</button></Link>
+        </div>
+      </div>
 
-          
-          
-          
+      <div className="footer-page">
+        <div className="foot-logo-body">
+        <a href=""><Image className='foot-logo' src={puerim}/></a>
+        </div>
+        <div className="tagline">
+          Puerim , Your IT Partner
+        </div>
+        <div className="foot-nav flex justify-between text-white">
+          <div className="tags"><Link href=''>Privacy policy</Link></div>
+          <div className="tags"><Link href=''>Terms</Link></div>
+          <div className="tags"><a href = "mailto:puerim.work@gmail.com?subject = Feedback&body = Message">
+          Send Feedback
+          </a></div>
+
         </div>
 
+        <div className="links-nav text-white">
+        <div className="link-tags"> <a href="#container4">Our Services</a></div>
+        <div className="link-tags"> <a href="">Our Projects</a></div>
+        <div className="link-tags"><a href="#workbox">How it works</a></div>
+        <div className="link-tags"><a href="">Customers's opinion</a></div>
 
+
+        </div>
       </div>
     </>
   )
