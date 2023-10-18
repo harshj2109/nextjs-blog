@@ -134,8 +134,8 @@
     /* container 5 */
     
     .team-box{
-        height: 900px;
-        /* padding-top: 20px; */
+        height: 920px;
+        /* padding-bottom: 50px; */
     }
     .team-txt{
         font-size: 169px;
@@ -149,6 +149,10 @@
         /* margin-top: 83px; */
         font-size: 47px;
         padding: 19px 30px;
+        border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 4px 4px 4px 4px black;
     }
     .work-box{
         width: 100%;
@@ -202,9 +206,45 @@
     .p1{
         font-size: 105px;
         font-weight: 500;
-        margin-bottom: 30px;
+        margin-bottom: 30px;    
+    }
+
+    
+    .foot-logo{
+        width: 110px;
+        height:110px;
+        top: 59px;
+        left: 150px;
+    }
+    .tagline{
+        font-size: 47px;
+        top: 223px;
+        left: 150px;
+    }
+    .foot-nav{
+        width: 30%;
+        left: 150px;
+        top:432px;
+    
+    }
+    .tags{
+        font-size: 27px;
+    }
+    .links-nav{
+        
+        right: 100px;
+        top: 161px;
+    
+        width: 25%;
+        
         
     }
+    .link-tags{
+    
+    margin: 19px 43px;
+    font-size: 28px;
+    }
+
     
 
 }
@@ -366,6 +406,41 @@
         
     }
    
+    
+    .foot-logo{
+        width: 60px;
+        height:60px;
+        top: 40px;
+        left: 110px;
+    }
+    .tagline{
+        font-size: 26px;
+        top: 144px;
+        left: 110px;
+    }
+    .foot-nav{
+        width: 30%;
+        left: 110px;
+        top:250px;
+    
+    }
+    .tags{
+        font-size: 15px;
+    }
+    .links-nav{
+        
+        right: 100px;
+        top: 95px;
+    
+        width: 25%;
+        
+        
+    }
+    .link-tags{
+    
+    margin: 10px 30px;
+    font-size: 16px;
+    }
 }
 @media only screen and (max-width:1024px) and (min-width:769px){
 
@@ -494,6 +569,41 @@
         font-weight: 500;
         margin-bottom: 30px;
         
+    }
+
+    .foot-logo{
+        width: 55px;
+        height:55px;
+        top: 40px;
+        left: 90px;
+    }
+    .tagline{
+        font-size: 23px;
+        top: 144px;
+        left: 90px;
+    }
+    .foot-nav{
+        width: 30%;
+        left: 90px;
+        top:250px;
+    
+    }
+    .tags{
+        font-size: 14px;
+    }
+    .links-nav{
+        
+        right: 60px;
+        top: 95px;
+    
+        width: 32%;
+        
+        
+    }
+    .link-tags{
+    
+    margin: 10px 30px;
+    font-size: 13.5px;
     }
 }
 @media only screen and (max-width:768px) and (min-width:427px){
@@ -678,6 +788,42 @@
         font-weight: 500;
         margin-bottom: 30px;
         
+    }
+    
+    .foot-logo{
+        width: 53px;
+        height:53px;
+        top: 40px;
+        left: 70px;
+    }
+    .tagline{
+        font-size: 22px;
+        top: 144px;
+        left: 70px;
+    }
+    .foot-nav{
+        width: 38%;
+        left: 70px;
+        top:250px;
+    
+    }
+    .tags{
+        font-size: 13.5px;
+    }
+    .links-nav{
+        
+        right: 40px;
+        top: 65px;
+    
+        
+        text-align: center;
+        
+        
+    }
+    .link-tags{
+    
+    margin: 10px 30px;
+    font-size: 13.5px;
     }
     
 }
@@ -932,6 +1078,38 @@
     margin-bottom: 30px;
     
 }
+.foot-logo{
+    width: 53px;
+    height:53px;
+    top: 40px;
+    left: 45px;
+}
+.tagline{
+    font-size: 22px;
+    top: 144px;
+    left: 45px;
+}
+.foot-nav{
+    width: 80%;
+    left: 45px;
+    top:250px;
+
+}
+.tags{
+    font-size: 13.5px;
+}
+.links-nav{
+    
+    right: 40px;
+    top: 65px;
+
+    
+    text-align: center;
+    display: none;
+    
+    
+}
+
     
     
 }
@@ -1089,7 +1267,37 @@
     
 }
     
+.foot-logo{
+    width: 53px;
+    height:53px;
+    top: 40px;
+    left: 40px;
+}
+.tagline{
+    font-size: 22px;
+    top: 144px;
+    left: 40px;
+}
+.foot-nav{
+    width: 80%;
+    left: 40px;
+    top:250px;
+
+}
+.tags{
+    font-size: 13.5px;
+}
+.links-nav{
     
+    right: 40px;
+    top: 65px;
+
+    
+    text-align: center;
+    display: none;
+    
+    
+}
     
     
 }
@@ -1335,6 +1543,36 @@
     
 }
         
+.foot-logo{
+    width: 53px;
+    height:53px;
+    top: 40px;
+    left: 35px;
+}
+.tagline{
+    font-size: 20px;
+    top: 144px;
+    left: 35px;
+}
+.foot-nav{
+    width: 80%;
+    left: 35px;
+    top:250px;
+
+}
+.tags{
+    font-size: 13px;
+}
+.links-nav{
     
+    right: 40px;
+    top: 65px;
+
+    
+    text-align: center;
+    display: none;
+    
+    
+}   
     
 }

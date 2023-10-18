@@ -218,7 +218,7 @@ const btn = document.getElementById('btn1');
           <Image className='light light-white' src={develop}/>
 
                 <p className='p1 txtw'>Development</p>
-                <p>Once the design has ben validated,we frame the task in order to set up a development roadmap.</p>
+                <p>Once the design has ben validated, we frame the task in order to set up a development roadmap.</p>
               </div>
             </div>
           </div>
@@ -235,14 +235,9 @@ const btn = document.getElementById('btn1');
           </div>
         </div>
       </div>
-      <div className="container6">
-      <div className="team-box" data-aos='fade-up'>
-          <div className="team-txt">The expertise of a team <span>👬</span> combined with the proximity <span></span> of a freelancer<span>💻</span>.</div>
-          <Link href="/Contact"><button>Contact Us</button></Link>
-        </div>
-      </div>
+      
 
-      <div className="footer-page">
+      <div className="footer-page" data-aos='fade-in'>
         <div className="foot-logo-body">
         <a href=""><Image className='foot-logo' src={puerim}/></a>
         </div>
@@ -252,17 +247,19 @@ const btn = document.getElementById('btn1');
         <div className="foot-nav flex justify-between text-white">
           <div className="tags"><Link href=''>Privacy policy</Link></div>
           <div className="tags"><Link href=''>Terms</Link></div>
-          <div className="tags"><a href = "mailto:puerim.work@gmail.com?subject = Feedback&body = Message">
+          <div className="tags"><a className='text-yellow-300' href = "mailto:puerim.work@gmail.com?subject = Feedback&body = Message">
           Send Feedback
           </a></div>
 
         </div>
 
         <div className="links-nav text-white">
+
         <div className="link-tags"> <a href="#container4">Our Services</a></div>
         <div className="link-tags"> <a href="">Our Projects</a></div>
         <div className="link-tags"><a href="#workbox">How it works</a></div>
         <div className="link-tags"><a href="">Customers's opinion</a></div>
+        <div className="link-tags"><Link href='/Contact'>Contact Us</Link></div>
 
 
         </div>
