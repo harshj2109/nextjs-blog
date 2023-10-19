@@ -218,7 +218,7 @@ const btn = document.getElementById('btn1');
           <Image className='light light-white' src={develop}/>
 
                 <p className='p1 txtw'>Development</p>
-                <p>Once the design has ben validated, we frame the task in order to set up a development roadmap.</p>
+                <p>Once the design has been validated, we frame the task in order to set up a development roadmap.</p>
               </div>
             </div>
           </div>
@@ -239,7 +239,7 @@ const btn = document.getElementById('btn1');
 
       <div className="footer-page" data-aos='fade-in'>
         <div className="foot-logo-body">
-        <a href=""><Image className='foot-logo' src={puerim}/></a>
+        <a className='a-foot-logo' href=""><Image className='foot-logo' src={puerim}/></a>
         </div>
         <div className="tagline">
           Puerim , Your IT Partner
