@@ -15,6 +15,8 @@ import iteration from '../public/images/iteration.svg'
 
 import p1 from '../public/images/p1.png'
 import p2 from '../public/images/p2.png'
+import p3 from '../public/images/p3.png'
+
 
 
 import Link from 'next/link'
@@ -55,7 +57,7 @@ const btn = document.getElementById('btn1');
         <a href=""onClick={()=>{
         ham();
       }}>Our projects</a>
-        <a href=""onClick={()=>{
+        <a href="#testimonial"onClick={()=>{
         ham();
       }}>Customer's opinions</a>
       <Link href="/Contact" className='text-white btn1' id='btn1'><button>Contact Us</button></Link>
@@ -76,23 +78,32 @@ const btn = document.getElementById('btn1');
     <a className='btn2'href="#container2"><button>Discover Us</button></a>
     </div>
     </div>
+
+    {/* testimonials */}
+    <div id='testimonial' className="testimonial-main-box text-white ">
+      <div className="testimonials-heading">Our Testimonials</div>
+      <div className="testimonials-flex flex justify-around ">
+
+      <div className="testimonials " data-aos="flip-left">
+        <Image className='person' src={p1}/>
+        <div>Shubh Karan Chaudhary</div>
+        <p>The team at Puerim is really talented. They helped us in crafting an effective social media strategy. We are seeing about 3x growth in revenue.</p>
+      </div>
+      <div className="testimonials" data-aos="flip-left">
+        <Image className='person' src={p2}/>
+        <div>Gajendra Chowhan</div>
+        <p>Due to Puerim's help in branding and social media strategy, We are seeing 2x growth in Customers.</p>
+      </div>
+      <div className="testimonials" data-aos="flip-left">
+        <Image className='person' src={p3}/>
+        <div>Subhadeep Das</div>
+        <p>Puerim designed our brand Martially's brand identity and our App. Our investor was impressed by our product.</p>
+      </div>
+      </div>
+
+    </div>
       
-      {/* <marquee class="marq flex" bgcolor = "yellow" direction = "right" loop="" Scrollamount='20' behavior="alternate" >
-            <div className='flex text-center text-white'>
-            <div className="red ">
-            <Image className='person' src={p1}/>
-            <div className="p-head">Person 1</div>
-            
-            </div>
-
-
-            <div className="red">
-            <Image className='person' src={p2}/>
-            <div className="p-head">Person 2</div>
-            <div className="p-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, ipsa recusandae temporibus iusto magn</div>
-            </div>
-            </div>
-    </marquee> */}
+  
       
     
     
@@ -242,13 +253,13 @@ const btn = document.getElementById('btn1');
         <a className='a-foot-logo' href=""><Image className='foot-logo' src={puerim}/></a>
         </div>
         <div className="tagline">
-          Puerim , Your IT Partner
+          Puerim,Your Growth Partner.
         </div>
         <div className="foot-nav flex justify-between text-white">
           <div className="tags"><Link href=''>Privacy policy</Link></div>
           <div className="tags"><Link href=''>Terms</Link></div>
           <div className="tags"><a className='text-yellow-300' href = "mailto:puerim.work@gmail.com?subject = Feedback&body = Message">
-          Send Feedback
+          Email Us
           </a></div>
 
         </div>
