@@ -28,7 +28,9 @@ const contact = () => {
     <div className="contact-places">
       Our Handles - 
       
+      <div className="contact-flex flex ml-4">
 
+      </div>
       <a href="https://instagram.com/_puerim?igshid=OGQ5ZDc2ODk2ZA=="><Image className='contact-logo logo-1' src={insta}/></a>
       <a href="https://twitter.com/_Puerim/status/1707102824797253761?t=cB4G97RdViqHtz_xBou4aQ&s=08"><Image className='contact-logo logo-2' src={x}/></a>
       <a href="https://www.youtube.com/channel/UCZe8IP5asimvGzCr12CPIFg"><Image className='contact-logo logo-3' src={youtube}/></a>

@@ -303,7 +303,7 @@
     margin: 110px 0;
     display: flex;
     align-items: center;
-    gap: 20px;
+    
     font-weight: 400;
 
 }
@@ -576,7 +576,7 @@
 .contact-places{
     font-size: 26px;
     margin: 57px 0;
-gap: 15px;
+
 
 }
 .logo-1{
@@ -823,7 +823,6 @@ gap: 15px;
 .contact-places{
     font-size: 24px;
     margin: 57px 0;
-gap: 15px;
 
 }
 .logo-1{
@@ -1121,7 +1120,7 @@ gap: 15px;
     .contact-places{
         font-size: 24px;
         margin: 57px 0;
-    gap: 15px;
+    
     
     }
     .logo-1{
@@ -1485,27 +1484,27 @@ gap: 15px;
     font-size: 19px;
 }
 .contact-places{
-    font-size: 20px;
+    font-size: 18px;
     margin: 57px 0;
-gap: 8px;
+
 
 }
 .logo-1{
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 34px;
 }
 .logo-2{
-    width: 69px;
-    height: 50px;
+    width: 65px;
+    height: 40px;
 }.logo-3{
-    width: 44px;
-    height: 35px;
+    width: 40px;
+    height: 30px;
 }
     
     
 }
 
-@media  only screen and (max-width:375.2px) {
+@media  only screen and (max-width:375.2px) and (min-width:321px) {
      
     /* testimonials */
 
@@ -1765,9 +1764,9 @@ gap: 8px;
     font-size: 17px;
 }
 .contact-places{
-    font-size: 19px;
+    font-size: 18px;
     margin: 57px 0;
-gap: 5px;
+
 
 }
 .logo-1{
@@ -2082,7 +2081,7 @@ gap: 5px;
 .contact-places{
     font-size: 16.6px;
     margin: 57px 0;
-gap: 5px;
+
 
 }
 .logo-1{
