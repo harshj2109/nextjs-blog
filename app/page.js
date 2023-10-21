@@ -173,7 +173,7 @@ const btn = document.getElementById('btn1');
       <div className="container5">
         <div className="team-box" data-aos='fade-up'>
           <div className="team-txt">We are a creative <span>🎨</span> and passionate <span></span> team based in Bangalore <span>🏡</span>.</div>
-          <Link href="#"><button>Discover our team</button></Link>
+          <Link href="/Team"><button>Discover our team</button></Link>
         </div>
 
         <div id='workbox' className="work-box">
@@ -253,9 +253,9 @@ const btn = document.getElementById('btn1');
         <a className='a-foot-logo' href=""><Image className='foot-logo' src={puerim}/></a>
         </div>
         <div className="tagline">
-          Puerim,Your Growth Partner.
+          Puerim, Your Growth Partner.
         </div>
-        <div className="foot-nav flex justify-between text-white">
+        <div className="foot-nav flex justify-between text-white text-center">
           <div className="tags"><Link href=''>Privacy policy</Link></div>
           <div className="tags"><Link href=''>Terms</Link></div>
           <div className="tags"><a className='text-yellow-300' href = "mailto:puerim.work@gmail.com?subject = Feedback&body = Message">

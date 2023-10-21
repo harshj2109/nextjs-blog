@@ -3,6 +3,8 @@
 import './globals.css'
 import './contact.css'
 import './media.css'
+import './team.css'
+import './team-media.css'
 
 import { Anton, Lato } from 'next/font/google'
 

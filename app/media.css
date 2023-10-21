@@ -319,6 +319,70 @@
     height:50px;
 }
     
+/* team-mem */
+.team-container{
+    padding-bottom: 30px;
+}
+.team-page-box{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.team-page-head1{
+    
+    font-size: 90px;
+    
+}
+.team-page-body1{
+    font-size: 25px;
+}
+.team-mem-box{
+    margin-top: 100px;
+    
+    
+}
+.mem-box{
+    
+    width:380px;
+    height: 600px;
+    border-radius: 20px;
+    margin-right: 40px;
+    
+}
+.team-mem-img{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+.about-mem{
+    margin-top: 20px;
+}
+.mem-role{
+
+    font-size: 17px;
+    
+    border-radius: 40px;
+    margin: auto 0;
+    padding: 10px 20px;
+}
+.linkedin-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.mem-name{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.desc-mem{
+
+    font-size: 17px;
+    margin-top: 10px;
+}
 
 }
 @media only screen and (max-width:1440px) and (min-width:1024px){

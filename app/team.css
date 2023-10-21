@@ -1,0 +1,74 @@
+.team-container{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.team-page-box{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.team-page-head1{
+    color: yellow;
+    font-size: 90px;
+    font-weight: 500;
+    text-align: center;
+}
+.team-page-body1{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+.team-mem-box{
+    margin-top: 100px;
+    display: flex;
+    
+}
+.mem-box{
+    /* background-color: rgb(255, 0, 0); */
+    width:380px;
+    height: 600px;
+    /* border-radius: 20px; */
+    margin-right: 40px;
+    overflow: hidden;
+}
+.team-mem-img{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+.color-cyan{
+    background-color: aqua;
+}
+.color-pink{
+    background-color: pink;
+}
+.about-mem{
+    margin-top: 20px;
+}
+.mem-role{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    margin: auto 0;
+    padding: 10px 20px;
+}
+.linkedin-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.mem-name{
+    color: yellow;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.desc-mem{
+    color: gray;
+    font-size: 17px;
+    margin-top: 10px;
+}
