@@ -11,24 +11,24 @@ import youtube from './public/youtube.png'
 const contact = () => {
   return (
     <>
-    <div className="contact-container bg-black">
+    <div className="contact-container bg-black" >
     <div className="navbar2 flex justify-between">
 
     <Image  className=' logo1' src={logo} alt='error'/>
     <Link href=".." className='btn3'><button>Home</button></Link>
     </div>
     <div className="contact-text1 ">
-    <div className="contact-head1">
+    <div className="contact-head1" data-aos='zoom-in'>
       Hey User ! Let's Discuss Your Project.
     </div>
-    <div className="contact-head1-body">
+    <div className="contact-head1-body" data-aos='zoom-in'>
       A project to share with us? We look forward to meeting you. Tell us your needs & desire! You can contact with us at Puerim.work@gmail.com.
     </div>
 
-    <div className="contact-places">
+    <div className="contact-places" data-aos='zoom-in'>
       Our Handles - 
       
-      <div className="contact-flex flex ml-4">
+      <div className="contact-flex flex ml-4" data-aos='zoom-in'>
 
       </div>
       <a href="https://instagram.com/_puerim?igshid=OGQ5ZDc2ODk2ZA=="><Image className='contact-logo logo-1' src={insta}/></a>

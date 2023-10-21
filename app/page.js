@@ -48,6 +48,9 @@ const btn = document.getElementById('btn1');
 
       
       <div className="nav-list flex text-white" id='nav-list'>
+      <a href="#testimonial"onClick={()=>{
+        ham();
+      }}>Customer's opinions</a>
         <a href="#container4" onClick={()=>{
         ham();
       }}>Our Services</a>
@@ -57,11 +60,10 @@ const btn = document.getElementById('btn1');
         <a href=""onClick={()=>{
         ham();
       }}>Our projects</a>
-        <a href="#testimonial"onClick={()=>{
-        ham();
-      }}>Customer's opinions</a>
+        
       <Link href="/Contact" className='text-white btn1' id='btn1'><button>Contact Us</button></Link>
       </div>
+
       <div onClick={()=>{
         ham();
       }} class="hamburger" id="hamburger">
@@ -75,7 +77,7 @@ const btn = document.getElementById('btn1');
     <div className='main text-center' data-aos='zoom-in'>
     <div className="main-text " >We <span>Help</span> <br/> You Stand Out</div>
     
-    <a className='btn2'href="#container2"><button>Discover Us</button></a>
+    <a className='btn2'href="#testimonial"><button>Discover Us</button></a>
     </div>
     </div>
 
