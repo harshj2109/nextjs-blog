@@ -11,7 +11,7 @@ import linkedin from './public/linkedin.png'
 const team = () => {
   return (
     <>
-    <div className="team-container bg-black" data-aos=''>
+    <div className="team-container " >
     <div className="navbar2 flex justify-between">
 
     <Image  className='logo1' src={logo1} alt='error'/>

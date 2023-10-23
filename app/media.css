@@ -1,5 +1,5 @@
 @media only screen and (max-width:2720px) and (min-width:2560px){
-    .logo {
+    .logo{
         margin: 35px 0;
         width: 88px;
         height: 88px;
@@ -138,17 +138,17 @@
         margin-left: 60px;
     }
     .body-box{
-        margin: 20px 0;
+        margin: 72px 0;
         margin-left: 60px;
-        font-size: 40px;
+        font-size: 46px;
     }
     .foot-box{
-        margin: 0px 0;
+        margin: 79px 0;
         margin-left: 60px;
         display:inline-block;
-        padding: 10px 30px;
+        padding: 15px 35px;
         border-radius: 50px;
-        font-size: 25px;
+        font-size: 30px;
     }
     
     /* container 5 */

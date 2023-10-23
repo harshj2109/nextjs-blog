@@ -27,16 +27,19 @@ const page = () => {
   
 
 function ham(){
-  const navbar = document.getElementById('nav-list');
-const hamburger = document.getElementById('hamburger');
-const btn = document.getElementById('btn1');
-
+  
+  let navbar = document.getElementById('nav-list');
+  let hamburger = document.getElementById('hamburger');
+  let btn = document.getElementById('btn1');
 
     navbar.classList.toggle("active");
     hamburger.classList.toggle("active");
     btn1.classList.toggle("active");
 
+    
+    
 }
+
   return (
     <>
     {/* container 1 */}
