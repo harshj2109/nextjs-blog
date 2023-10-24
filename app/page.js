@@ -130,7 +130,7 @@ function ham(){
           <div className='text2'>We support you in carrying out your peojects. We advise and guide you.</div>
         </div>
         <div className="cards" data-aos='fade-in'>
-        <div className='text1'>Our strenght of proposal</div>
+        <div className='text1'>Our strength of proposal</div>
           <div className='text2'>We offer you innovative and creative solution. We bring you are expertise</div>
         </div>
 
