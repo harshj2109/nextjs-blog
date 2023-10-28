@@ -11,7 +11,7 @@ import { Anton, Lato } from 'next/font/google'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
+import NextTopLoader from 'nextjs-toploader'
 
 const lato = Lato({ 
   subsets: ['latin'],weight:'400'
@@ -33,7 +33,10 @@ export default function RootLayout({ children }) {
   return (
     
     <html lang="en">
-      <body className={lato.className}>{children}</body>
+      <body className={lato.className}>
+      <NextTopLoader />
+        {children}
+        </body>
     </html>
   )
 }
