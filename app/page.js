@@ -148,7 +148,7 @@ function ham(){
 
         </div>
         <div className="cards2" data-aos='fade-in'>
-        <div className="head-box">Design______001</div>
+        <div className="head-box">Design</div>
           <div className="body-box">We take into account user interaction with the interface. We pay particular attention to hypothesis testing and prototyping, only the most successful solutions are retained for visualization.</div>
           <div className="flex">
 
@@ -161,17 +161,43 @@ function ham(){
 
         </div>
         <div className="cards2" data-aos='fade-in'>
-        <div className="head-box">Frontend_____002</div>
+        <div className="head-box">Web Development</div>
           <div className="body-box">We develop web and mobile applications. We use the latest technologies and best practices to create digital products that are scalable and maintainable overtime.</div>
           <div className="flex ">
 
-          <div className="foot-box" >Html</div>
-          <div className="foot-box" >Css</div>
-          <div className="foot-box" >Javascript</div>
+          
           <div className="foot-box" >React Js</div>
+          <div className="foot-box" >Node Js</div>
+          <div className="foot-box" >Tailwind css</div>
+
+          
+
           </div>
         </div>
 
+        <div className="cards2" data-aos='fade-in'>
+        <div className="head-box">Social Media Marketing</div>
+          <div className="body-box">We craft engaging content, drive targeted campaigns and analyze data to ensure your business shines on social platforms.</div>
+          <div className="flex ">
+
+          <div className="foot-box" >Marketing</div>
+          <div className="foot-box" >Paid Ads</div>
+          <div className="foot-box" >Strategy</div>
+          <div className="foot-box" >Campaigns</div>
+          </div>
+        </div>
+
+        <div className="cards2" data-aos='fade-in'>
+        <div className="head-box">Lead Generation</div>
+          <div className="body-box">We find the leads, you close the deals!Connect with potential Customers and watch your business thrive.</div>
+          <div className="flex ">
+
+          <div className="foot-box" >Qualified Leads</div>
+          <div className="foot-box" >Email Marketing</div>
+          <div className="foot-box" >Social Media Outreach</div>
+        
+          </div>
+        </div>
         
       </div>
       </div>
