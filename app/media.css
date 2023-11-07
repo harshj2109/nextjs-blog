@@ -1308,7 +1308,8 @@
         
     }
    
-    .flex{
+    .flex-foot-box{
+        display: flex;
         flex-direction: column;
     }
     .text-head{

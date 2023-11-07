@@ -221,9 +221,7 @@ html{
     color: white;
     
 }
-.flex{
-    flex-wrap: nowrap;
-}
+
 #box-1{
     background-color: yellow;
     color: black;
