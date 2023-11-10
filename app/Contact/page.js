@@ -19,10 +19,10 @@ const contact = () => {
     </div>
     <div className="contact-text1 ">
     <div className="contact-head1" data-aos=''>
-      Hey User ! Let's Discuss Your Project.
+      Hey! Let's Discuss Your Project.
     </div>
     <div className="contact-head1-body" data-aos=''>
-      A project to share with us? We look forward to meeting you. Tell us your needs & desire! You can contact with us at Puerim.work@gmail.com.
+      A project to share with us? We look forward to meeting you. Tell us your needs & desire! You can contact with us at puerim.work@gmail.com.
     </div>
 
     <div className="contact-places" data-aos=''>
